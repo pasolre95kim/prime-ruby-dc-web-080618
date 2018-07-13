@@ -5,6 +5,6 @@ def prime?(n)
     if n % i == 0
       (2..Math.sqrt(n)).each do |i|
   break
-else return true
-end
+else true
+  end
 end
