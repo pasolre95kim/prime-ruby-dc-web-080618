@@ -4,7 +4,7 @@ def prime?(n)
      return false
     if n % i == 0
       (2..Math.sqrt(n)).each do |i|
-  return false
+  break 
+else return true
 end
-   true
 end
